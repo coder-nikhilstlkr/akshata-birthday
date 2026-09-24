@@ -1,0 +1,1650 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Akshata ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+
+        /* =========================================
+           BASIC RESET
+        ========================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #ffdde1,
+                    #ee9ca7
+                );
+
+            color: white;
+
+            overflow-x: hidden;
+        }
+
+
+        /* =========================================
+           START SCREEN
+        ========================================= */
+
+        #startScreen {
+
+            position: fixed;
+
+            inset: 0;
+
+            z-index: 10000;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            padding: 25px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #ffdde1,
+                    #ee9ca7
+                );
+        }
+
+
+        .startContent {
+
+            max-width: 650px;
+
+            padding: 30px;
+        }
+
+
+        .bigHeart {
+
+            font-size: 85px;
+
+            animation:
+                heartbeat 1.5s infinite;
+
+            margin-bottom: 10px;
+        }
+
+
+        .startContent h1 {
+
+            font-family:
+                'Dancing Script',
+                cursive;
+
+            font-size:
+                clamp(3rem, 8vw, 5rem);
+
+            text-shadow:
+                0 0 15px
+                rgba(255,255,255,0.8);
+        }
+
+
+        .startContent p {
+
+            margin-top: 20px;
+
+            font-size: 1.1rem;
+
+            line-height: 1.7;
+        }
+
+
+        .startButton {
+
+            margin-top: 35px;
+
+            padding: 16px 38px;
+
+            border: none;
+
+            border-radius: 50px;
+
+            background: white;
+
+            color: #ff4d88;
+
+            font-family:
+                'Poppins',
+                sans-serif;
+
+            font-size: 18px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            box-shadow:
+                0 12px 35px
+                rgba(0,0,0,0.2);
+
+            transition:
+                all 0.3s ease;
+        }
+
+
+        .startButton:hover {
+
+            transform:
+                scale(1.08);
+
+            box-shadow:
+                0 18px 40px
+                rgba(0,0,0,0.3);
+        }
+
+
+        .startButton:active {
+
+            transform:
+                scale(0.95);
+        }
+
+
+        @keyframes heartbeat {
+
+            0% {
+                transform: scale(1);
+            }
+
+            25% {
+                transform: scale(1.12);
+            }
+
+            40% {
+                transform: scale(1);
+            }
+
+            60% {
+                transform: scale(1.12);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+
+        /* =========================================
+           HERO
+        ========================================= */
+
+        .hero {
+
+            min-height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            text-align: center;
+
+            padding: 30px 20px;
+
+            position: relative;
+
+            z-index: 10;
+        }
+
+
+        .hero h1 {
+
+            font-family:
+                'Dancing Script',
+                cursive;
+
+            font-size:
+                clamp(3rem, 8vw, 5rem);
+
+            text-shadow:
+                0 0 10px
+                rgba(255,255,255,0.7),
+
+                0 0 30px
+                rgba(255,255,255,0.5);
+
+            animation:
+                pulse 2s infinite;
+        }
+
+
+        .hero p {
+
+            margin-top: 25px;
+
+            max-width: 750px;
+
+            font-size:
+                clamp(1rem, 2vw, 1.25rem);
+
+            line-height: 1.8;
+        }
+
+
+        @keyframes pulse {
+
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+
+        /* =========================================
+           BUTTON
+        ========================================= */
+
+        .btn {
+
+            margin-top: 35px;
+
+            padding: 15px 35px;
+
+            border: none;
+
+            border-radius: 50px;
+
+            background: white;
+
+            color: #ff4d88;
+
+            font-family:
+                'Poppins',
+                sans-serif;
+
+            font-size: 18px;
+
+            font-weight: 600;
+
+            cursor: pointer;
+
+            box-shadow:
+                0 10px 30px
+                rgba(0,0,0,0.15);
+
+            transition:
+                all 0.3s ease;
+        }
+
+
+        .btn:hover {
+
+            transform:
+                scale(1.08);
+
+            box-shadow:
+                0 15px 35px
+                rgba(0,0,0,0.25);
+        }
+
+
+        /* =========================================
+           GALLERY
+        ========================================= */
+
+        .gallery {
+
+            padding:
+                80px 20px;
+
+            text-align: center;
+
+            position: relative;
+
+            z-index: 10;
+        }
+
+
+        .gallery h2 {
+
+            font-family:
+                'Dancing Script',
+                cursive;
+
+            font-size:
+                clamp(2.5rem, 6vw, 4rem);
+
+            margin-bottom: 40px;
+
+            text-shadow:
+                0 0 15px
+                rgba(255,255,255,0.6);
+        }
+
+
+        .photos {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            justify-content: center;
+
+            align-items: center;
+
+            gap: 30px;
+
+            max-width: 1200px;
+
+            margin: auto;
+        }
+
+
+        .card {
+
+            background: white;
+
+            padding: 10px;
+
+            border-radius: 20px;
+
+            box-shadow:
+                0 15px 40px
+                rgba(0,0,0,0.25);
+
+            transition:
+                all 0.4s ease;
+        }
+
+
+        .card:hover {
+
+            transform:
+                translateY(-12px)
+                rotate(1deg);
+        }
+
+
+        .card img {
+
+            display: block;
+
+            width: 300px;
+
+            height: 400px;
+
+            object-fit: cover;
+
+            border-radius: 15px;
+        }
+
+
+        /* =========================================
+           MESSAGE
+        ========================================= */
+
+        .message {
+
+            padding:
+                80px 25px;
+
+            max-width: 900px;
+
+            margin: auto;
+
+            text-align: center;
+
+            position: relative;
+
+            z-index: 10;
+        }
+
+
+        .message h2 {
+
+            font-family:
+                'Dancing Script',
+                cursive;
+
+            font-size:
+                clamp(2.8rem, 6vw, 4rem);
+
+            margin-bottom: 30px;
+        }
+
+
+        .message p {
+
+            font-size: 1.15rem;
+
+            line-height: 2;
+        }
+
+
+        /* =========================================
+           POPUP OVERLAY
+        ========================================= */
+
+        .popup-overlay {
+
+            display: none;
+
+            position: fixed;
+
+            inset: 0;
+
+            background:
+                rgba(0,0,0,0.55);
+
+            backdrop-filter:
+                blur(5px);
+
+            z-index: 1000;
+
+            justify-content: center;
+
+            align-items: center;
+
+            padding: 20px;
+        }
+
+
+        .popup-overlay.active {
+
+            display: flex;
+        }
+
+
+        /* =========================================
+           POPUP
+        ========================================= */
+
+        .popup {
+
+            width: 100%;
+
+            max-width: 600px;
+
+            max-height: 90vh;
+
+            overflow-y: auto;
+
+            background: white;
+
+            color: #444;
+
+            padding: 35px;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 25px 60px
+                rgba(0,0,0,0.4);
+
+            text-align: center;
+
+            animation:
+                popupIn 0.4s ease;
+        }
+
+
+        @keyframes popupIn {
+
+            from {
+
+                transform:
+                    scale(0.7);
+
+                opacity: 0;
+            }
+
+            to {
+
+                transform:
+                    scale(1);
+
+                opacity: 1;
+            }
+        }
+
+
+        .popup h3 {
+
+            font-family:
+                'Dancing Script',
+                cursive;
+
+            color: #ff4d88;
+
+            font-size: 2.3rem;
+
+            margin-bottom: 20px;
+        }
+
+
+        .popup p {
+
+            line-height: 1.8;
+        }
+
+
+        .popup button {
+
+            margin-top: 25px;
+
+            padding: 12px 28px;
+
+            border: none;
+
+            border-radius: 30px;
+
+            background: #ff4d88;
+
+            color: white;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+        }
+
+
+        .popup button:hover {
+
+            transform:
+                scale(1.05);
+
+            background:
+                #ff286f;
+        }
+
+
+        /* =========================================
+           FLOATING HEARTS
+        ========================================= */
+
+        .hearts {
+
+            position: fixed;
+
+            width: 100%;
+
+            height: 100%;
+
+            top: 0;
+
+            left: 0;
+
+            pointer-events: none;
+
+            overflow: hidden;
+
+            z-index: 2;
+        }
+
+
+        .heart {
+
+            position: absolute;
+
+            bottom: -50px;
+
+            animation:
+                floatUp linear forwards;
+
+            opacity: 0;
+        }
+
+
+        @keyframes floatUp {
+
+            0% {
+
+                transform:
+                    translateY(0)
+                    rotate(0deg);
+
+                opacity: 0;
+            }
+
+            15% {
+
+                opacity: 1;
+            }
+
+            85% {
+
+                opacity: 1;
+            }
+
+            100% {
+
+                transform:
+                    translateY(-110vh)
+                    rotate(360deg);
+
+                opacity: 0;
+            }
+        }
+
+
+        /* =========================================
+           CONFETTI
+        ========================================= */
+
+        #confetti {
+
+            position: fixed;
+
+            top: 0;
+
+            left: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            pointer-events: none;
+
+            z-index: 5;
+        }
+
+
+        /* =========================================
+           MUSIC CONTROL
+        ========================================= */
+
+        .musicButton {
+
+            position: fixed;
+
+            right: 20px;
+
+            bottom: 20px;
+
+            z-index: 500;
+
+            width: 50px;
+
+            height: 50px;
+
+            border: none;
+
+            border-radius: 50%;
+
+            background: white;
+
+            color: #ff4d88;
+
+            font-size: 22px;
+
+            cursor: pointer;
+
+            box-shadow:
+                0 5px 20px
+                rgba(0,0,0,0.2);
+
+            display: none;
+
+            transition: 0.3s;
+        }
+
+
+        .musicButton:hover {
+
+            transform:
+                scale(1.1);
+        }
+
+
+        /* =========================================
+           FOOTER
+        ========================================= */
+
+        footer {
+
+            padding:
+                50px 20px;
+
+            text-align: center;
+
+            position: relative;
+
+            z-index: 10;
+
+            font-size: 1rem;
+        }
+
+
+        /* =========================================
+           MOBILE
+        ========================================= */
+
+        @media (max-width: 768px) {
+
+            .hero {
+
+                min-height: 100svh;
+            }
+
+
+            .hero p {
+
+                font-size: 1rem;
+            }
+
+
+            .card img {
+
+                width: 80vw;
+
+                max-width: 300px;
+
+                height: 400px;
+            }
+
+
+            .message p {
+
+                font-size: 1rem;
+
+                line-height: 1.8;
+            }
+
+
+            .popup {
+
+                padding:
+                    25px 20px;
+            }
+
+
+            .startContent h1 {
+
+                font-size: 3rem;
+            }
+
+
+            .bigHeart {
+
+                font-size: 70px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         BACKGROUND MUSIC
+    ========================================== -->
+
+    <audio id="birthdayMusic" loop>
+
+        <source
+            src="birthday-song.mp3"
+            type="audio/mpeg"
+        >
+
+        Your browser does not support audio.
+
+    </audio>
+
+
+    <!-- =========================================
+         START SCREEN
+    ========================================== -->
+
+    <div id="startScreen">
+
+        <div class="startContent">
+
+            <div class="bigHeart">
+                ❤️
+            </div>
+
+            <h1>
+                Something Special For You...
+            </h1>
+
+            <p>
+                I made something special just for you.
+                <br>
+                Put your headphones on 🎧
+            </p>
+
+            <button
+                class="startButton"
+                onclick="startBirthday()"
+            >
+                Open Your Surprise 💌
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         CONFETTI
+    ========================================== -->
+
+    <canvas id="confetti"></canvas>
+
+
+    <!-- =========================================
+         FLOATING HEARTS
+    ========================================== -->
+
+    <div
+        class="hearts"
+        id="hearts"
+    ></div>
+
+
+    <!-- =========================================
+         MUSIC BUTTON
+    ========================================== -->
+
+    <button
+        class="musicButton"
+        id="musicButton"
+        onclick="toggleMusic()"
+        title="Play / Pause Music"
+    >
+        🎵
+    </button>
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <section class="hero">
+
+        <h1>
+            🎂 Happy Birthday Akshata ❤️
+        </h1>
+
+
+        <p>
+
+            To someone incredibly special...
+            may your smile shine brighter than ever today,
+            and may this year bring you happiness,
+            love, success and beautiful memories.
+
+        </p>
+
+
+        <button
+            class="btn"
+            onclick="showLetter()"
+        >
+            Open My Birthday Letter 💌
+        </button>
+
+    </section>
+
+
+    <!-- =========================================
+         GALLERY
+    ========================================== -->
+
+    <section class="gallery">
+
+        <h2>
+            ✨ Beautiful Memories ✨
+        </h2>
+
+
+        <div class="photos">
+
+
+            <div class="card">
+
+                <img
+                    src="photo1.jpg"
+                    alt="Beautiful memory 1"
+                >
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="photo2.jpg"
+                    alt="Beautiful memory 2"
+                >
+
+            </div>
+
+
+            <div class="card">
+
+                <img
+                    src="photo3.jpg"
+                    alt="Beautiful memory 3"
+                >
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MESSAGE
+    ========================================== -->
+
+    <section class="message">
+
+        <h2>
+            For Akshata 🌹
+        </h2>
+
+
+        <p>
+
+            Happy Birthday to one of the most wonderful
+            people I've ever known.
+
+            <br><br>
+
+            Your kindness, warmth and beautiful smile
+            make every moment brighter.
+
+            Today is a celebration of the amazing person
+            you are and all the happiness you bring into
+            the lives of those around you.
+
+            <br><br>
+
+            May your dreams come true,
+            may your days be filled with laughter,
+            and may this year become your most memorable
+            year yet.
+
+            <br><br>
+
+            Keep smiling, keep shining,
+            and stay exactly the beautiful person you are.
+
+            ❤️
+
+        </p>
+
+    </section>
+
+
+    <!-- =========================================
+         BIRTHDAY LETTER POPUP
+    ========================================== -->
+
+    <div
+        class="popup-overlay"
+        id="popupOverlay"
+        onclick="closeLetter(event)"
+    >
+
+
+        <div
+            class="popup"
+            onclick="event.stopPropagation()"
+        >
+
+
+            <h3>
+                💌 A Special Birthday Note
+            </h3>
+
+
+            <p>
+
+                Dear Akshata,
+
+                <br><br>
+
+                Wishing you the happiest birthday
+                filled with love, laughter and everything
+                that makes your heart happy.
+
+                <br><br>
+
+                Today is all about celebrating YOU
+                and how special you are.
+
+                Your smile can brighten even the simplest
+                day and your presence makes moments
+                unforgettable.
+
+                <br><br>
+
+                I hope this year brings you endless
+                happiness, success, wonderful surprises
+                and memories you'll cherish forever.
+
+                <br><br>
+
+                Happy Birthday ❤️🎂🌹
+
+            </p>
+
+
+            <button
+                onclick="closeLetter()"
+            >
+                Close
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        Made with ❤️ Especially for Akshata
+
+    </footer>
+
+
+    <script>
+
+
+        /* =========================================
+           MUSIC
+        ========================================== */
+
+        const music =
+            document.getElementById(
+                "birthdayMusic"
+            );
+
+
+        const musicButton =
+            document.getElementById(
+                "musicButton"
+            );
+
+
+        function startBirthday() {
+
+            /*
+             * The button click allows the browser
+             * to start audio with sound.
+             */
+
+            music.volume = 0.5;
+
+
+            music.play()
+                .then(function() {
+
+                    /*
+                     * Hide the welcome screen.
+                     */
+
+                    document
+                        .getElementById(
+                            "startScreen"
+                        )
+                        .style.display = "none";
+
+
+                    /*
+                     * Show music control.
+                     */
+
+                    musicButton.style.display =
+                        "block";
+
+
+                    /*
+                     * Start the visual effects.
+                     */
+
+                    startHearts();
+
+                    startConfetti();
+
+                })
+                .catch(function(error) {
+
+                    console.log(
+                        "Music could not start:",
+                        error
+                    );
+
+                    /*
+                     * Even if audio fails,
+                     * continue to the website.
+                     */
+
+                    document
+                        .getElementById(
+                            "startScreen"
+                        )
+                        .style.display = "none";
+
+
+                    musicButton.style.display =
+                        "block";
+
+
+                    startHearts();
+
+                    startConfetti();
+
+                });
+
+        }
+
+
+        function toggleMusic() {
+
+            if (music.paused) {
+
+                music.play();
+
+                musicButton.innerHTML =
+                    "🎵";
+
+            } else {
+
+                music.pause();
+
+                musicButton.innerHTML =
+                    "🔇";
+
+            }
+
+        }
+
+
+        /* =========================================
+           BIRTHDAY LETTER
+        ========================================== */
+
+        function showLetter() {
+
+            document
+                .getElementById(
+                    "popupOverlay"
+                )
+                .classList.add(
+                    "active"
+                );
+
+        }
+
+
+        function closeLetter(event) {
+
+            /*
+             * If clicking the dark background,
+             * close the popup.
+             */
+
+            if (
+                event &&
+                event.target !==
+                event.currentTarget
+            ) {
+
+                return;
+
+            }
+
+
+            document
+                .getElementById(
+                    "popupOverlay"
+                )
+                .classList.remove(
+                    "active"
+                );
+
+        }
+
+
+        /* =========================================
+           ESC KEY
+        ========================================== */
+
+        document.addEventListener(
+            "keydown",
+            function(event) {
+
+                if (
+                    event.key === "Escape"
+                ) {
+
+                    document
+                        .getElementById(
+                            "popupOverlay"
+                        )
+                        .classList.remove(
+                            "active"
+                        );
+
+                }
+
+            }
+        );
+
+
+        /* =========================================
+           FLOATING HEARTS
+        ========================================== */
+
+        const heartsContainer =
+            document.getElementById(
+                "hearts"
+            );
+
+
+        let heartsCreated = 0;
+
+        const maxHearts = 40;
+
+        let heartInterval = null;
+
+
+        function startHearts() {
+
+            /*
+             * Prevent starting the system twice.
+             */
+
+            if (heartInterval !== null) {
+
+                return;
+
+            }
+
+
+            heartInterval =
+                setInterval(
+                    function() {
+
+
+                        if (
+                            heartsCreated >=
+                            maxHearts
+                        ) {
+
+                            clearInterval(
+                                heartInterval
+                            );
+
+                            heartInterval =
+                                null;
+
+                            return;
+
+                        }
+
+
+                        const heart =
+                            document.createElement(
+                                "div"
+                            );
+
+
+                        heart.classList.add(
+                            "heart"
+                        );
+
+
+                        const heartTypes = [
+
+                            "❤️",
+                            "💕",
+                            "💗",
+                            "💖",
+                            "💓",
+                            "💘"
+
+                        ];
+
+
+                        heart.innerHTML =
+                            heartTypes[
+                                Math.floor(
+                                    Math.random() *
+                                    heartTypes.length
+                                )
+                            ];
+
+
+                        heart.style.left =
+                            Math.random() *
+                            100 +
+                            "%";
+
+
+                        heart.style.fontSize =
+                            (
+                                18 +
+                                Math.random() *
+                                25
+                            ) +
+                            "px";
+
+
+                        const duration =
+                            5 +
+                            Math.random() *
+                            4;
+
+
+                        heart.style.animationDuration =
+                            duration +
+                            "s";
+
+
+                        heartsContainer
+                            .appendChild(
+                                heart
+                            );
+
+
+                        setTimeout(
+                            function() {
+
+                                heart.remove();
+
+                            },
+                            duration * 1000
+                        );
+
+
+                        heartsCreated++;
+
+
+                    },
+                    400
+                );
+
+        }
+
+
+        /* =========================================
+           CONFETTI
+        ========================================== */
+
+        const canvas =
+            document.getElementById(
+                "confetti"
+            );
+
+
+        const ctx =
+            canvas.getContext(
+                "2d"
+            );
+
+
+        let confettiRunning =
+            false;
+
+
+        let confettiAnimation;
+
+
+        const pieces = [];
+
+
+        function resizeCanvas() {
+
+            canvas.width =
+                window.innerWidth;
+
+            canvas.height =
+                window.innerHeight;
+
+        }
+
+
+        resizeCanvas();
+
+
+        window.addEventListener(
+            "resize",
+            resizeCanvas
+        );
+
+
+        for (
+            let i = 0;
+            i < 180;
+            i++
+        ) {
+
+            pieces.push({
+
+                x:
+                    Math.random() *
+                    window.innerWidth,
+
+                y:
+                    Math.random() *
+                    window.innerHeight,
+
+                size:
+                    Math.random() * 8 + 4,
+
+                speed:
+                    Math.random() * 3 + 1,
+
+                rotation:
+                    Math.random() * 360,
+
+                rotationSpeed:
+                    Math.random() * 5 - 2.5,
+
+                color:
+                    `hsl(
+                        ${Math.random() * 360},
+                        100%,
+                        60%
+                    )`
+
+            });
+
+        }
+
+
+        function startConfetti() {
+
+            if (confettiRunning) {
+
+                return;
+
+            }
+
+
+            confettiRunning = true;
+
+
+            /*
+             * Run confetti for 12 seconds.
+             */
+
+            setTimeout(
+                function() {
+
+                    confettiRunning =
+                        false;
+
+                    cancelAnimationFrame(
+                        confettiAnimation
+                    );
+
+
+                    ctx.clearRect(
+                        0,
+                        0,
+                        canvas.width,
+                        canvas.height
+                    );
+
+                },
+                12000
+            );
+
+
+            animateConfetti();
+
+        }
+
+
+        function animateConfetti() {
+
+            if (!confettiRunning) {
+
+                return;
+
+            }
+
+
+            ctx.clearRect(
+                0,
+                0,
+                canvas.width,
+                canvas.height
+            );
+
+
+            pieces.forEach(
+                function(piece) {
+
+
+                    ctx.save();
+
+
+                    ctx.translate(
+                        piece.x,
+                        piece.y
+                    );
+
+
+                    ctx.rotate(
+                        piece.rotation *
+                        Math.PI /
+                        180
+                    );
+
+
+                    ctx.fillStyle =
+                        piece.color;
+
+
+                    ctx.fillRect(
+
+                        -piece.size / 2,
+
+                        -piece.size / 2,
+
+                        piece.size,
+
+                        piece.size
+
+                    );
+
+
+                    ctx.restore();
+
+
+                    piece.y +=
+                        piece.speed;
+
+
+                    piece.rotation +=
+                        piece.rotationSpeed;
+
+
+                    if (
+                        piece.y >
+                        window.innerHeight + 20
+                    ) {
+
+                        piece.y = -20;
+
+
+                        piece.x =
+                            Math.random() *
+                            window.innerWidth;
+
+                    }
+
+                }
+            );
+
+
+            confettiAnimation =
+                requestAnimationFrame(
+                    animateConfetti
+                );
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+```
